@@ -1,1 +1,1 @@
-#Generic Mapping Tool for Earth Sciences
+# Generic Mapping Tool for Earth Sciences
