@@ -1,0 +1,10 @@
+tw_relief_15s.nc: Title: Produced by grdcut
+tw_relief_15s.nc: Command: grdcut @earth_relief_15s_p/ -R118.5/123.5/21.0/26.0 -Gtw_relief_15s.nc
+tw_relief_15s.nc: Remark: 
+tw_relief_15s.nc: Pixel node registration used [Geographic grid]
+tw_relief_15s.nc: Grid file format: nf = GMT netCDF format (32-bit float), CF-1.7
+tw_relief_15s.nc: x_min: 118.5 x_max: 123.5 x_inc: 0.00416666666667 (15 sec) name: longitude n_columns: 1200
+tw_relief_15s.nc: y_min: 21 y_max: 26 y_inc: 0.00416666666667 (15 sec) name: latitude n_rows: 1200
+tw_relief_15s.nc: v_min: -6778 v_max: 3757 name: z
+tw_relief_15s.nc: scale_factor: 1 add_offset: 0
+tw_relief_15s.nc: format: netCDF-4 chunk_size: 134,134 shuffle: on deflation_level: 3

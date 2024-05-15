@@ -1,0 +1,11 @@
+tw_relief.nc: Title: 
+tw_relief.nc: Command: gmt grdcut @earth_relief_30s_g/ -R119/123/21/26 -Gtw_relief.nc
+tw_relief.nc: Remark: 
+tw_relief.nc: Gridline node registration used [Geographic grid]
+tw_relief.nc: Grid file format: nf = GMT netCDF format (32-bit float), CF-1.7
+tw_relief.nc: x_min: 119 x_max: 123 x_inc: 0.00833333333333 (30 sec) name: longitude n_columns: 481
+tw_relief.nc: y_min: 21 y_max: 26 y_inc: 0.00833333333333 (30 sec) name: latitude n_rows: 601
+tw_relief.nc: v_min: -6716.5 v_max: 3626 name: z
+tw_relief.nc: scale_factor: 1 add_offset: 0
+tw_relief.nc: format: netCDF-4 chunk_size: 161,151 shuffle: on deflation_level: 3
+tw_relief.nc: Default CPT: geo
