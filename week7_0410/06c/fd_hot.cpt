@@ -1,0 +1,7 @@
+-40	black	-30	170/0/0	L
+-30	170/0/0	-20	255/85/0	L
+-20	255/85/0	-10	yellow	L
+-10	yellow	0	white	B
+B	black
+F	white
+N	128

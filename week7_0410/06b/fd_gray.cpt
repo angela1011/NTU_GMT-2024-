@@ -1,0 +1,13 @@
+-50	black	-45	gray10	L	
+-45	gray10	-40	gray20	L	
+-40	gray20	-35	76.5	L	
+-35	76.5	-30	gray40	L	
+-30	gray40	-25	127.5	L	
+-25	127.5	-20	gray60	L	
+-20	gray60	-15	gray70	L	
+-15	gray70	-10	gray80	L	
+-10	gray80	-5	229.5	L	
+-5	229.5	0	white	B	
+B	black
+F	white
+N	128

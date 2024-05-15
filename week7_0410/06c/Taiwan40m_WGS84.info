@@ -1,0 +1,11 @@
+../grdfiles/Taiwan40m_WGS84.nc: Title: tw40.grd
+../grdfiles/Taiwan40m_WGS84.nc: Command: xyz2grd -V -E tw40.txt -Gtw40.grd
+../grdfiles/Taiwan40m_WGS84.nc: Remark: 
+../grdfiles/Taiwan40m_WGS84.nc: Pixel node registration used [Cartesian grid]
+../grdfiles/Taiwan40m_WGS84.nc: Grid file format: nf = GMT netCDF format (32-bit float), CF-1.7
+../grdfiles/Taiwan40m_WGS84.nc: x_min: 120.015963664 x_max: 122.009263063 x_inc: 0.00034486148773 name: x n_columns: 5780
+../grdfiles/Taiwan40m_WGS84.nc: y_min: 21.893609168 y_max: 25.3015303897 y_inc: 0.00034486148773 name: y n_rows: 9882
+../grdfiles/Taiwan40m_WGS84.nc: v_min: 0 v_max: 3941 name: z
+../grdfiles/Taiwan40m_WGS84.nc: scale_factor: 1 add_offset: 0
+../grdfiles/Taiwan40m_WGS84.nc: format: classic
+../grdfiles/Taiwan40m_WGS84.nc: Default CPT: 

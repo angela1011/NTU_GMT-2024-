@@ -1,0 +1,13 @@
+0	white	5	229.5	L	
+5	229.5	10	gray80	L	
+10	gray80	15	178.5	L	
+15	178.5	20	gray60	L	
+20	gray60	25	127.5	L	
+25	127.5	30	gray40	L	
+30	gray40	35	76.5	L	
+35	76.5	40	gray20	L	
+40	gray20	45	25.5	L	
+45	25.5	50	black	B	
+B	white
+F	black
+N	128
