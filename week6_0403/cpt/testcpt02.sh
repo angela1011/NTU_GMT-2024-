@@ -1,0 +1,1 @@
+gmt colorbar -Dx0c/0c+w10c/1c+h -B0 -Ccpt-city/cubhelix -pdf CPT02 -V

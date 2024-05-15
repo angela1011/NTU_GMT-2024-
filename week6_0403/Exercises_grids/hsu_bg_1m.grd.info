@@ -1,0 +1,10 @@
+hsu_bg_1m.grd: Title: surface
+hsu_bg_1m.grd: Command: grdfilter bg.grd -Gbg_f.grd -D4 -Fg30 -R117/125/18/27 -V
+hsu_bg_1m.grd: Remark: 
+hsu_bg_1m.grd: Gridline node registration used [Cartesian grid]
+hsu_bg_1m.grd: Grid file format: cf = GMT netCDF format (32-bit float, deprecated)
+hsu_bg_1m.grd: x_min: 117 x_max: 125 x_inc: 0.0166666666667 name: user_x_unit n_columns: 481
+hsu_bg_1m.grd: y_min: 18 y_max: 27 y_inc: 0.0166666666667 name: user_y_unit n_rows: 541
+hsu_bg_1m.grd: v_min: -133.638290405 v_max: 221.535202026 name: user_z_unit
+hsu_bg_1m.grd: scale_factor: 1 add_offset: 0
+hsu_bg_1m.grd: format: classic

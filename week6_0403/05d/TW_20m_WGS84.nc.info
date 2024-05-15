@@ -1,0 +1,21 @@
+c:/gridfiles/TW_20m_WGS84.nc: Title: Produced by grdconvert
+c:/gridfiles/TW_20m_WGS84.nc: Command: grdconvert DEM20mWGS84.tif -GDEM20mWGS84.nc
+c:/gridfiles/TW_20m_WGS84.nc: Remark: 
+c:/gridfiles/TW_20m_WGS84.nc: Pixel node registration used [Cartesian grid]
+c:/gridfiles/TW_20m_WGS84.nc: Grid file format: nf = GMT netCDF format (32-bit float), CF-1.7
+c:/gridfiles/TW_20m_WGS84.nc: x_min: 120.016636702 x_max: 122.009924713 x_inc: 0.000195996854572 name: x n_columns: 10170
+c:/gridfiles/TW_20m_WGS84.nc: y_min: 21.893781841 y_max: 25.301944477 y_inc: 0.000180584042601 name: y n_rows: 18873
+c:/gridfiles/TW_20m_WGS84.nc: v_min: -3.10100007057 v_max: 3948.70800781 name: z
+c:/gridfiles/TW_20m_WGS84.nc: scale_factor: 1 add_offset: 0
+c:/gridfiles/TW_20m_WGS84.nc: format: netCDF-4 chunk_size: 129,129 shuffle: on deflation_level: 3
+c:/gridfiles/TW_20m_WGS84.nc: Default CPT: 
+GEOGCS["WGS 84",
+    DATUM["WGS_1984",
+        SPHEROID["WGS 84",6378137,298.257223563,
+            AUTHORITY["EPSG","7030"]],
+        AUTHORITY["EPSG","6326"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["EPSG","4326"]]

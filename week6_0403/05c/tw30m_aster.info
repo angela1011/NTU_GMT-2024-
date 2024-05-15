@@ -1,0 +1,11 @@
+../grdfiles/tw30m_aster.nc: Title: GDAL Band Number 1
+../grdfiles/tw30m_aster.nc: Command: grdreformat aster_tw.nc=ns/1/0/NaN aster_tw_re.nc=ns
+../grdfiles/tw30m_aster.nc: Remark: 
+../grdfiles/tw30m_aster.nc: Gridline node registration used [Geographic grid]
+../grdfiles/tw30m_aster.nc: Grid file format: ns = GMT netCDF format (16-bit integer), CF-1.7
+../grdfiles/tw30m_aster.nc: x_min: 119 x_max: 123 x_inc: 0.000277777777778 (1 sec) name: longitude n_columns: 14401
+../grdfiles/tw30m_aster.nc: y_min: 21 y_max: 26 y_inc: 0.000277777777778 (1 sec) name: latitude n_rows: 18001
+../grdfiles/tw30m_aster.nc: v_min: -15 v_max: 3897 name: GDAL Band Number 1
+../grdfiles/tw30m_aster.nc: scale_factor: 1 add_offset: 0
+../grdfiles/tw30m_aster.nc: format: classic
+../grdfiles/tw30m_aster.nc: Default CPT: 
