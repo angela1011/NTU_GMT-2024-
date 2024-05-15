@@ -1,0 +1,25 @@
+H 16 1 551 events during 1998/02/04 to 2008/04/25
+D 0 1p
+N 5 
+V 0 1p
+S 0.1i c 0.1i 0/0/255 0.25p 0.2i NF
+S 0.1i c 0.1i 0/200/255 0.25p 0.2i NS
+S 0.1i c 0.1i 0/255/0 0.25p 0.2i SS
+S 0.1i c 0.1i 255/200/0 0.25p 0.2i TS
+S 0.1i c 0.1i 255/0/0 0.25p 0.2i TF
+V 0 1p
+D 0 1p
+N 5
+V 0 1p
+S 0.1i c 0.12i - 0.25p 0.3i M 4
+S 0.1i c 0.15i - 0.25p 0.3i M 5
+S 0.1i c 0.18i - 0.25p 0.3i M 6
+S 0.1i c 0.21i - 0.25p 0.3i M 7
+S 0.1i c 0.24i - 0.25p 0.3i M 8
+V 0 1p
+D 0 1p
+N 1
+P
+T Focal mechanisms in Tibetan plateau and surrounding area. The focal mechanisms are classified 
+T in terms of plunge (pl) of P-, B-, and T- axes used to assign the stress data to the appropriate stress regime (Zoback, 1992).
+T These events were searched from: @_http://neic.usgs.gov/neis/sopar/ @_ during 1998 to 2008.

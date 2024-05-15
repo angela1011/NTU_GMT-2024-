@@ -1,0 +1,7 @@
+# CYCLIC
+-3.14	0/0/127	-2.355	blue	L
+-2.355	blue	-0.785	cyan	L
+-0.785	cyan	0.785	yellow	L
+0.785	yellow	2.355	red	L
+2.355	red	3.14	127/0/0	B
+N	128
