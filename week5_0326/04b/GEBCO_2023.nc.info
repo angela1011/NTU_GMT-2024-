@@ -1,0 +1,11 @@
+GEBCO_2023_sub_ice_topo.nc: Title: The GEBCO_2020 Grid - a continuous terrain model for oceans and land at 15 arc-second intervals
+GEBCO_2023_sub_ice_topo.nc: Command: Information on the development of the data set and the source data sets included in the grid can be found in the data set documentation available from https://www.gebco.net
+GEBCO_2023_sub_ice_topo.nc: Remark: 
+GEBCO_2023_sub_ice_topo.nc: Pixel node registration used [Geographic grid]
+GEBCO_2023_sub_ice_topo.nc: Grid file format: ns = GMT netCDF format (16-bit integer), CF-1.7
+GEBCO_2023_sub_ice_topo.nc: x_min: -180 x_max: 180 x_inc: 0.00416666666667 (15 sec) name: longitude n_columns: 86400
+GEBCO_2023_sub_ice_topo.nc: y_min: -90 y_max: 90 y_inc: 0.00416666666667 (15 sec) name: latitude n_rows: 43200
+GEBCO_2023_sub_ice_topo.nc: v_min: 0 v_max: 0 name: Elevation relative to sea level [m]
+GEBCO_2023_sub_ice_topo.nc: scale_factor: 1 add_offset: 0
+GEBCO_2023_sub_ice_topo.nc: format: netCDF-4 chunk_size: 0,0 shuffle: off deflation_level: 0
+GEBCO_2023_sub_ice_topo.nc: Default CPT: 
