@@ -1,0 +1,10 @@
+/mnt/c/gridfiles/Taidp200m.nc: Title: Data gridded with continuous surface splines in tension
+/mnt/c/gridfiles/Taidp200m.nc: Command: surface Taidp200m.xyz -I200e -GTaidp200m.nc -R119/123/21/26 -T0.25 -V
+/mnt/c/gridfiles/Taidp200m.nc: Remark: 
+/mnt/c/gridfiles/Taidp200m.nc: Gridline node registration used [Geographic grid]
+/mnt/c/gridfiles/Taidp200m.nc: Grid file format: nf = GMT netCDF format (32-bit float), CF-1.7
+/mnt/c/gridfiles/Taidp200m.nc: x_min: 119 x_max: 123 x_inc: 0.0019617459539 name: longitude n_columns: 2040
+/mnt/c/gridfiles/Taidp200m.nc: y_min: 21 y_max: 26 y_inc: 0.00179856115108 name: latitude n_rows: 2781
+/mnt/c/gridfiles/Taidp200m.nc: z_min: -6177.93896484 z_max: 3887.3996582 name: z
+/mnt/c/gridfiles/Taidp200m.nc: scale_factor: 1 add_offset: 0
+/mnt/c/gridfiles/Taidp200m.nc: format: netCDF-4 chunk_size: 136,133 shuffle: on deflation_level: 3
