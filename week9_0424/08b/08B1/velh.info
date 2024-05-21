@@ -1,0 +1,11 @@
+velh.grd: Title: Data gridded with continuous surface splines in tension
+velh.grd: Command: gmt surface -R120.1/120.7/22.25/23.0 -Gvelh.grd -I0.01 -T0.25 -C0.1 -V
+velh.grd: Remark: 
+velh.grd: Gridline node registration used [Cartesian grid]
+velh.grd: Grid file format: nf = GMT netCDF format (32-bit float), CF-1.7
+velh.grd: x_min: 120.1 x_max: 120.7 x_inc: 0.01 name: x n_columns: 61
+velh.grd: y_min: 22.25 y_max: 23 y_inc: 0.01 name: y n_rows: 76
+velh.grd: v_min: 3.51122307777 v_max: 61.7430076599 name: z
+velh.grd: scale_factor: 1 add_offset: 0
+velh.grd: format: classic
+velh.grd: Default CPT: 

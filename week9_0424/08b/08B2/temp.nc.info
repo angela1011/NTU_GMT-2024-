@@ -1,0 +1,11 @@
+temp.nc: Title: 
+temp.nc: Command: gmt grdsample swshad.grd -Rvelh.grd -I0.001 -Gtemp.nc -V
+temp.nc: Remark: 
+temp.nc: Gridline node registration used [Cartesian grid]
+temp.nc: Grid file format: nf = GMT netCDF format (32-bit float), CF-1.7
+temp.nc: x_min: 120.1 x_max: 120.7 x_inc: 0.001 name: x n_columns: 601
+temp.nc: y_min: 22.25 y_max: 23 y_inc: 0.001 name: y n_rows: 751
+temp.nc: v_min: -1.04766070843 v_max: 1.04265499115 name: z
+temp.nc: scale_factor: 1 add_offset: 0
+temp.nc: format: netCDF-4 chunk_size: 151,151 shuffle: on deflation_level: 3
+temp.nc: Default CPT: 

@@ -1,0 +1,10 @@
+swshad.grd: Title: Produced by grdgradient
+swshad.grd: Command: grdgradient sw.grd -Nt1 -A300 -Gswshad.grd
+swshad.grd: Remark: Normalized directional derivative(s)
+swshad.grd: Gridline node registration used [Cartesian grid]
+swshad.grd: Grid file format: nf = GMT netCDF format (32-bit float), CF-1.7
+swshad.grd: x_min: 120.1 x_max: 120.7 x_inc: 0.00111111111111 name:  n_columns: 541
+swshad.grd: y_min: 22.25 y_max: 23 y_inc: 0.00111111111111 name:  n_rows: 676
+swshad.grd: z_min: -0.951578557491 z_max: 0.95126503706 name: z
+swshad.grd: scale_factor: 1 add_offset: 0
+swshad.grd: format: netCDF-4 chunk_size: 136,136 shuffle: on deflation_level: 3
