@@ -1,0 +1,10 @@
+field_s.nc: Title: Grid produced by blockmean
+field_s.nc: Command: blockmean C:/Users/ASUS/.gmt/cache/ship_15.txt -I10m -R-115/-105/20/30 -E -Gfield_%s.nc -Az,s
+field_s.nc: Remark: Standard deviation per bin
+field_s.nc: Gridline node registration used [Cartesian grid]
+field_s.nc: Grid file format: nf = GMT netCDF format (32-bit float), CF-1.7
+field_s.nc: x_min: -115 x_max: -105 x_inc: 0.166666666667 name: x n_columns: 61
+field_s.nc: y_min: 20 y_max: 30 y_inc: 0.166666666667 name: y n_rows: 61
+field_s.nc: v_min: 0 v_max: 1343.31347656 name: z
+field_s.nc: scale_factor: 1 add_offset: 0
+field_s.nc: format: classic

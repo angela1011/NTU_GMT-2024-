@@ -1,0 +1,10 @@
+GPS.grd: Title: Data gridded with continuous surface splines in tension
+GPS.grd: Command: surface GPS.xy -R120/120.8/22.5/23 -T0.05 -I0.01 -GGPS.grd -V
+GPS.grd: Remark: 
+GPS.grd: Gridline node registration used [Cartesian grid]
+GPS.grd: Grid file format: nf = GMT netCDF format (32-bit float), CF-1.7
+GPS.grd: x_min: 120 x_max: 120.8 x_inc: 0.01 name: x n_columns: 81
+GPS.grd: y_min: 22.5 y_max: 23 y_inc: 0.01 name: y n_rows: 51
+GPS.grd: v_min: 9.41287899017 v_max: 67.3805923462 name: z
+GPS.grd: scale_factor: 1 add_offset: 0
+GPS.grd: format: classic
