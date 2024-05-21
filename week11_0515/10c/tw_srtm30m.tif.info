@@ -1,0 +1,10 @@
+tw_srtm30m.tif: Title: Grid imported via GDAL
+tw_srtm30m.tif: Command: 
+tw_srtm30m.tif: Remark: 
+tw_srtm30m.tif: Pixel node registration used [Cartesian grid]
+tw_srtm30m.tif: Grid file format: gd = Import/export through GDAL
+tw_srtm30m.tif: x_min: 118.999861111 x_max: 123.000138889 x_inc: 0.000277777777778 name:  n_columns: 14401
+tw_srtm30m.tif: y_min: 20.9998611111 y_max: 26.0001388889 y_inc: 0.000277777777778 name:  n_rows: 18001
+tw_srtm30m.tif: z_min: -72 z_max: 3930 name: z
+tw_srtm30m.tif: scale_factor: 1 add_offset: 0
++proj=longlat +datum=WGS84 +no_defs

@@ -1,0 +1,10 @@
+a3.grd: Title: z
+a3.grd: Command: grdpaste a1.grd a2.grd -Ga3.grd
+a3.grd: Remark: 
+a3.grd: Gridline node registration used [Geographic grid]
+a3.grd: Grid file format: nf = GMT netCDF format (32-bit float), CF-1.7
+a3.grd: x_min: 20 x_max: 26 x_inc: 0.000833333333333 (3 sec) name: longitude n_columns: 7201
+a3.grd: y_min: 37 y_max: 39 y_inc: 0.000833333333333 (3 sec) name: latitude n_rows: 2401
+a3.grd: v_min: -58 v_max: 2503 name: z
+a3.grd: scale_factor: 1 add_offset: 0
+a3.grd: format: netCDF-4 chunk_size: 129,134 shuffle: on deflation_level: 3

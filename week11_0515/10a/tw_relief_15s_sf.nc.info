@@ -1,0 +1,9 @@
+tw_relief_15s_sf.nc: Title: Grid originally in Surfer 6 format
+tw_relief_15s_sf.nc: Command: 
+tw_relief_15s_sf.nc: Remark: 
+tw_relief_15s_sf.nc: Gridline node registration used [Cartesian grid]
+tw_relief_15s_sf.nc: Grid file format: sf = Golden Software Surfer format 6 (32-bit float)
+tw_relief_15s_sf.nc: x_min: 118.502083333 x_max: 123.497916667 x_inc: 0.00416666666667 name: x n_columns: 1200
+tw_relief_15s_sf.nc: y_min: 20.0020833333 y_max: 26.4979166667 y_inc: 0.00416666666667 name: y n_rows: 1560
+tw_relief_15s_sf.nc: v_min: -6778 v_max: 3757 name: z
+tw_relief_15s_sf.nc: scale_factor: 1 add_offset: 0

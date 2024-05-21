@@ -1,0 +1,21 @@
+tw_srtm30m_sf.grd: Title: Produced by grdconvert
+tw_srtm30m_sf.grd: Command: grdconvert tw_srtm30m.tif -Gtw_srtm30m_sf.grd -V
+tw_srtm30m_sf.grd: Remark: 
+tw_srtm30m_sf.grd: Pixel node registration used [Cartesian grid]
+tw_srtm30m_sf.grd: Grid file format: nf = GMT netCDF format (32-bit float), CF-1.7
+tw_srtm30m_sf.grd: x_min: 118.999861111 x_max: 123.000138889 x_inc: 0.000277777777778 name: x n_columns: 14401
+tw_srtm30m_sf.grd: y_min: 20.9998611111 y_max: 26.0001388889 y_inc: 0.000277777777778 name: y n_rows: 18001
+tw_srtm30m_sf.grd: v_min: -72 v_max: 3930 name: z
+tw_srtm30m_sf.grd: scale_factor: 1 add_offset: 0
+tw_srtm30m_sf.grd: format: netCDF-4 chunk_size: 129,129 shuffle: on deflation_level: 3
+GEOGCS["unknown",
+    DATUM["WGS_1984",
+        SPHEROID["WGS 84",6378137,298.257223563,
+            AUTHORITY["EPSG","7030"]],
+        AUTHORITY["EPSG","6326"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AXIS["Longitude",EAST],
+    AXIS["Latitude",NORTH]]

@@ -1,0 +1,11 @@
+tw_relief_15s_ni.nc: Title: Produced by grdconvert
+tw_relief_15s_ni.nc: Command: grdconvert tw_relief_15s.nc tw_relief_15s_ni.nc=ni -V
+	(old cmd) grdcut @earth_relief_15s_p/ -R118.5/123.5/20/26.5 -Gtw_relief_15s.nc
+tw_relief_15s_ni.nc: Remark: 
+tw_relief_15s_ni.nc: Pixel node registration used [Geographic grid]
+tw_relief_15s_ni.nc: Grid file format: ni = GMT netCDF format (32-bit integer), CF-1.7
+tw_relief_15s_ni.nc: x_min: 118.5 x_max: 123.5 x_inc: 0.00416666666667 (15 sec) name: longitude n_columns: 1200
+tw_relief_15s_ni.nc: y_min: 20 y_max: 26.5 y_inc: 0.00416666666667 (15 sec) name: latitude n_rows: 1560
+tw_relief_15s_ni.nc: v_min: -6778 v_max: 3757 name: z
+tw_relief_15s_ni.nc: scale_factor: 1 add_offset: 0
+tw_relief_15s_ni.nc: format: netCDF-4 chunk_size: 134,130 shuffle: on deflation_level: 3
