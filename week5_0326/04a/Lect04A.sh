@@ -7,8 +7,8 @@
 # data source, tw_topo500m.nc courtesy of National Center for Ocean Research (NOCR)
 
 prefix=Lect04A
-range1=117/125/18/27
-range2=117/125/18/27/-10000/4000
+range1=119/124/19.5/26
+range2=119/123.5/20/26/-10000/4000
 grd=tw_relief_15s.nc
 
 gmt gmtset MAP_ORIGIN_X 1.9i MAP_ORIGIN_Y 1.8i
@@ -16,14 +16,15 @@ gmt gmtset PROJ_LENGTH_UNIT inch
 gmt gmtset FORMAT_GEO_MAP ddd:mm:ssF
 gmt gmtset MAP_FRAME_TYPE Plain
 
-gmt grdcut @earth_relief_15s -R${range1} -G${grd}
+gmt grdcut @@earth_relief_15s -R${range1} -G${grd} #@earth_relief_01s
 
-gmt begin ${prefix} jpg A+0.5c
+gmt begin ${prefix} png A+0.5c
     gmt grd2cpt ${grd} -Crainbow -Z 
     gmt grdview ${grd} -Jm121/23/0.6 -Jz0.0001 -C -I+a30+ne0.8 -R${range2} -p150/40 -Qi -N-10001+g200 -Bx1 -By1 -Bz2500+l"meter" -BSEwnz -Y1.5 -X0.5
     gmt coast -Jz -p150/40/0 -Df -W0.5 
-    gmt colorbar -Dx0.0c/-1.5c+w15c/0.25c+h+e -I -Bx1000 -By+lm -V 
-    echo "126.0 26.00 24,32 -22 TC 3D Relief of Taiwan Area" |gmt text -Jz -F+f+a+j  -N 
+    gmt colorbar -Dx0.0c/-1.5c+w7c/0.25c+h+e -I -Bx2000 -By+lm -V 
+    echo "126.0 26.00 24,32 -22 TC 3D Relief of Taiwan Area" | gmt text -Jz -F+f+a+j  -N 
+    # -F+f15p,NewCenturySchlbk-Bold,black -W0.01 -Gwhite 
 cat << END  > whiteword.txt
 119.40 21.70 15,20,255 0 CB South China Sea
 119.40 21.30 15,20,255 0 CB Basin 
@@ -31,13 +32,11 @@ cat << END  > whiteword.txt
 119.40 20.50 15,20,255 30 LT Manila Trench 
 123.40 21.20 10,20,255 50 LT Huatang Basin 
 125.87 21.63 10,20,255 340 CB Ryukyu Trench 
-126.50 23.70 15,20,255 0 CB Okinawa  
-126.80 23.45 15,20,255 0 CB Trough 
+126.50 23.70 15,20,255 0 CB Okinawa Trough 
 122.80 24.50 17,20,255 15 CB Taiwan Strait 
 END
     gmt text whiteword.txt -Jz -F+f+a+j -N 
 cat  << END > region.txt 
-122.00 25.90 20,20 0 CB China
 126.20 22.90 15,20 0 CB Ryukyu Arc
 122.23 21.50 15,20 50 CB Luzon Arc
 121.90 23.70 10,20 0 CB Penghu
